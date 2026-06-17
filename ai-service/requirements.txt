@@ -1,0 +1,23 @@
+# Gym SaaS – AI Service (FastAPI + InsightFace + FAISS)
+# Python 3.10+
+
+fastapi>=0.109
+uvicorn[standard]>=0.27
+python-multipart>=0.0.6
+pydantic>=2.0
+
+# InsightFace (RetinaFace + ArcFace 512-d)
+insightface>=0.7.0
+onnxruntime>=1.16.0
+# GPU: pip install onnxruntime-gpu
+
+# FAISS (cosine similarity)
+faiss-cpu>=1.7.4
+# GPU: faiss-gpu (optional)
+
+# Image
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+
+# HTTP client for Django
+requests>=2.31.0
